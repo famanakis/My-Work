@@ -1,0 +1,128 @@
+
+body {background-color:rgb(235,125,149);
+  margin: 0;
+  padding-top: 0px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sand-serif;
+  font-size: 20px;
+            }
+
+h1 {font-size: 55px;
+  background-color:#fafeff;
+  margin-top:0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align:center;
+  color:#780404;
+  font-weight:bold;
+  
+        
+}
+
+#header img {max-width:50px;
+     padding-right:40px;
+     padding-left:40px;
+     padding-top:20px;
+       
+}
+
+#nav-bar{
+  position:fixed;
+  overflow:hidden;
+  
+  
+    
+}
+
+#nav-bar ul {
+  list-style-type: none;
+  paddin:0;
+  margin-top:0;
+  overflow:hidden;
+  background-color:white;
+  margin-bottom:15px;
+  background-color:#fafeff;
+    
+}
+
+
+#nav-bar li { 
+  float:left;
+  padding-left: 400px;
+  margin-bottom:0px;
+  
+       }
+
+
+.nav-link {
+  display:block;
+  color:black;
+  text-align:center;
+  font-size:20px;
+  text-decoration:none;
+  color:#ff0095;
+      } 
+  
+#nav-bar a:hover {
+  font-size:30px;
+  color:#780404;
+  font-weight:bold;  
+  border-radius:10px;
+}
+
+.container {
+  background-color:#fafeff;;
+  margin-top:180px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 5px;
+  text-align: center; 
+  padding: 5px 150px 25px;
+  }
+
+
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+iframe{width: 100%;}
+
+.cupcake-video {
+  display: flex;
+  margin-left:auto;
+  margin-right:auto;
+  padding-top: 100px;
+  border:none;
+   
+  }
+
+
+.email {
+  padding-left:40px;  
+}
+
+
+input[type="email"]{text-align:center;}
+
+footer {text-align:center;
+        color:black;
+}
+
+
+@media only screen and (max-width: 1200px) and (min-width:480px)
+{ body
+  {background-color:white;}
+}
+
+@media only screen and (max-width: 1665px) and (min-width:480px) 
+{ #header img { display: none;}
+}
+
+@media only screen and (max-width: 1665px) and (min-width:480px)
+{ #nav-bar li {float:none; padding-right:400px;}
+  
+}
